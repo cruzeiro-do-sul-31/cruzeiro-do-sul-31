@@ -1,160 +1,217 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Fotos - A.R.L.S. [Nome da Loja]</title>
-    <style>
-        /* Estilos Gerais (Tema Maçônico Clássico) */
-        body {
-            font-family: 'Times New Roman', Times, serif, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja Maçônica Cruzeiro do Sul nº 31</title>
 
-        header {
-            background-color: #0b1d3a; /* Azul Maçônico Escuro */
-            color: #dfb76c; /* Detalhes em tom de Ouro */
-            text-align: center;
-            padding: 2rem 1rem;
-            border-bottom: 4px solid #dfb76c;
-        }
+<style>
 
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            letter-spacing: 2px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-        header p {
-            margin: 0.5rem 0 0 0;
-            font-style: italic;
-            color: #ffffff;
-        }
+body{
+    background:#f4f4f4;
+    color:#333;
+}
 
-        main {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
+header{
+    background:#0d2b52;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
 
-        /* Container da Galeria */
-        .galeria-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-        }
+header h1{
+    margin-bottom:10px;
+}
 
-        /* Card de Cada Foto */
-        .foto-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-            border: 1px solid #e0e0e0;
-        }
+nav{
+    background:#c9a227;
+    text-align:center;
+    padding:15px;
+}
 
-        .foto-card:hover {
-            transform: translateY(-5px);
-            border-color: #dfb76c;
-        }
+nav a{
+    color:#0d2b52;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
 
-        .foto-card img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            display: block;
-        }
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
 
-        .foto-info {
-            padding: 15px;
-            text-align: center;
-        }
+h2{
+    color:#0d2b52;
+    margin-bottom:20px;
+    border-bottom:3px solid #c9a227;
+    display:inline-block;
+    padding-bottom:5px;
+}
 
-        .foto-info h3 {
-            margin: 0 0 8px 0;
-            font-size: 1.2rem;
-            color: #0b1d3a;
-        }
+.historia{
+    line-height:1.8;
+    text-align:justify;
+}
 
-        .foto-info p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #666;
-        }
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
 
-        /* Rodapé */
-        footer {
-            background-color: #0b1d3a;
-            color: #ffffff;
-            text-align: center;
-            padding: 1.5rem 1rem;
-            margin-top: 4rem;
-            border-top: 4px solid #dfb76c;
-            font-size: 0.9rem;
-        }
-    </style>
+.galeria img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.card img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#0d2b52;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
 </head>
 <body>
 
-    <header>
-        <h1>A.R.L.S. [Nome da Loja]</h1>
-        <p>Galeria de Registros Históricos e Eventos</p>
-    </header>
+<header>
 
-    <main>
-        <section class="galeria-container">
-            
-            <!-- Foto 1 -->
-            <div class="foto-card">
-                <!-- Caminho atualizado para veneravel1.jpg -->
-                <img src="imagens/veneravel1.jpg" alt="Galeria de Veneráveis 1">
-                <div class="foto-info">
-                    <h3>Venerável Mestre [Nome]</h3>
-                    <p>Gestão [Ano - Ano]</p>
-                </div>
-            </div>
+<h1>Augusta, Respeitável, Fiel e Grande Benemérita</h1>
 
-            <!-- Foto 2 -->
-            <div class="foto-card">
-                <!-- Caminho atualizado para veneravel2.jpg -->
-                <img src="imagens/veneravel2.jpg" alt="Galeria de Veneráveis 2">
-                <div class="foto-info">
-                    <h3>Venerável Mestre [Nome]</h3>
-                    <p>Gestão [Ano - Ano]</p>
-                </div>
-            </div>
+<h2>Loja Maçônica Cruzeiro do Sul nº 31</h2>
 
-            <!-- Foto 3 -->
-            <div class="foto-card">
-                <!-- Caminho atualizado para veneravel3.jpg -->
-                <img src="imagens/veneravel3.jpg" alt="Galeria de Veneráveis 3">
-                <div class="foto-info">
-                    <h3>Venerável Mestre [Nome]</h3>
-                    <p>Gestão [Ano - Ano]</p>
-                </div>
-            </div>
+</header>
 
-            <!-- Foto 4 -->
-            <div class="foto-card">
-                <!-- Caminho atualizado para veneravel4.jpg -->
-                <img src="imagens/veneravel4.jpg" alt="Galeria de Veneráveis 4">
-                <div class="foto-info">
-                    <h3>Venerável Mestre [Nome]</h3>
-                    <p>Gestão [Ano - Ano]</p>
-                </div>
-            </div>
+<nav>
 
-        </section>
-    </main>
+<a href="#historia">Histórico</a>
 
-    <footer>
-        <p>&copy; 2026 A.R.L.S. [Nome da Loja] - Todos os direitos reservados.</p>
-        <p>T.·.F.·.A.·.</p>
-    </footer>
+<a href="#eventos">Eventos</a>
+
+<a href="#veneraveis">Veneráveis</a>
+
+</nav>
+
+<section id="historia">
+
+<h2>Histórico</h2>
+
+<p class="historia">
+
+A Loja Maçônica Cruzeiro do Sul nº 31 é uma Oficina comprometida com os princípios da
+Liberdade, Igualdade e Fraternidade.
+
+Ao longo de sua história, tem promovido o aperfeiçoamento moral e intelectual de seus
+membros, fortalecendo os laços de fraternidade e desenvolvendo ações em benefício da
+sociedade.
+
+Este espaço tem por objetivo preservar sua história, registrar momentos marcantes e
+homenagear os Irmãos que contribuíram para o crescimento da Loja.
+
+</p>
+
+</section>
+
+<section id="eventos">
+
+<h2>Galeria de Eventos</h2>
+
+<div class="galeria">
+
+<img src="imagens/evento1.jpg">
+
+<img src="imagens/evento2.jpg">
+
+<img src="imagens/evento3.jpg">
+
+<img src="imagens/evento4.jpg">
+
+<img src="imagens/evento5.jpg">
+
+<img src="imagens/evento6.jpg">
+
+</div>
+
+</section>
+
+<section id="veneraveis">
+
+<h2>Veneráveis Mestres</h2>
+
+<div class="galeria">
+
+<div class="card">
+
+<img src="imagens/veneravel1.jpg">
+
+<h3>Nome do Venerável</h3>
+
+<p>Gestão 2025/2026</p>
+
+</div>
+
+<div class="card">
+
+<img src="imagens/veneravel2.jpg">
+
+<h3>Nome do Venerável</h3>
+
+<p>Gestão 2024/2025</p>
+
+</div>
+
+<div class="card">
+
+<img src="imagens/veneravel3.jpg">
+
+<h3>Nome do Venerável</h3>
+
+<p>Gestão 2023/2024</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Loja Maçônica Cruzeiro do Sul nº 31</p>
+
+<p>© 2026 - Todos os direitos reservados.</p>
+
+</footer>
 
 </body>
 </html>

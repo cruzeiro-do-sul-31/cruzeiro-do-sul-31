@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Fotos - Augusta, Respeitável, Fiel e Grande Benemérita Loja Maçônica Cruzeiro do Sul nº 31</title>
+    <title>Galeria de Fotos - A.R.L.S. [Nome da Loja]</title>
     <style>
-        /* Estilos Gerais (Tema Maçônico Classic) */
+        /* Estilos Gerais (Tema Maçônico Clássico) */
         body {
             font-family: 'Times New Roman', Times, serif, sans-serif;
             background-color: #f4f4f9;
@@ -65,7 +65,7 @@
         .foto-card img {
             width: 100%;
             height: 220px;
-            object-fit: cover; /* Garante que as fotos fiquem alinhadas sem distorcer */
+            object-fit: cover;
             display: block;
         }
 
@@ -101,7 +101,7 @@
 <body>
 
     <header>
-        <h1>Augusta, Respeitável, Fiel e Grande Benemérita Loja Maçônica Cruzeiro do Sul nº 31</h1>
+        <h1>A.R.L.S. [Nome da Loja]</h1>
         <p>Galeria de Registros Históricos e Eventos</p>
     </header>
 
@@ -110,41 +110,43 @@
             
             <!-- Foto 1 -->
             <div class="foto-card">
-                <img src="veneravel1.jpg" alt="Veneravel1">
+                <!-- Caminho atualizado para veneravel1.jpg -->
+                <img src="imagens/veneravel1.jpg" alt="Galeria de Veneráveis 1">
                 <div class="foto-info">
-                    <h3>Fachada do Templo</h3>
-                    <p>Registro da nossa sede oficial.</p>
+                    <h3>Venerável Mestre [Nome]</h3>
+                    <p>Gestão [Ano - Ano]</p>
                 </div>
             </div>
 
             <!-- Foto 2 -->
             <div class="foto-card">
-                <img src="veneravel2.jpg" alt="veneravel">
+                <!-- Caminho atualizado para veneravel2.jpg -->
+                <img src="imagens/veneravel2.jpg" alt="Galeria de Veneráveis 2">
                 <div class="foto-info">
-                    <h3>Sessão de Aniversário</h3>
-                    <p>Celebração dos [X] anos de fundação.</p>
+                    <h3>Venerável Mestre [Nome]</h3>
+                    <p>Gestão [Ano - Ano]</p>
                 </div>
             </div>
 
             <!-- Foto 3 -->
             <div class="foto-card">
-                <img src="veneravel3.jpg" alt="veneravel">
+                <!-- Caminho atualizado para veneravel3.jpg -->
+                <img src="imagens/veneravel3.jpg" alt="Galeria de Veneráveis 3">
                 <div class="foto-info">
-                    <h3>Ágape / Ação Social</h3>
-                    <p>Entrega de doações para a comunidade local.</p>
+                    <h3>Venerável Mestre [Nome]</h3>
+                    <p>Gestão [Ano - Ano]</p>
                 </div>
             </div>
 
             <!-- Foto 4 -->
             <div class="foto-card">
-                <img src="veneravel4.jpg" alt="veneravel">
+                <!-- Caminho atualizado para veneravel4.jpg -->
+                <img src="imagens/veneravel4.jpg" alt="Galeria de Veneráveis 4">
                 <div class="foto-info">
-                    <h3>Nosso Estandarte</h3>
-                    <p>Detalhe do pavilhão da oficina.</p>
+                    <h3>Venerável Mestre [Nome]</h3>
+                    <p>Gestão [Ano - Ano]</p>
                 </div>
             </div>
-
-            <!-- Adicione mais blocos de "foto-card" se precisar de mais fotos -->
 
         </section>
     </main>
